@@ -47,7 +47,7 @@ header p {
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff;
+  color: #001f4d;
 }
 
 section .row img {
@@ -62,14 +62,14 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  color: #FFFFFF;
   text-shadow: none;
-  background-color: #ffffff;
+  background-color: #0052cc;
 }
 
 .btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
+  color: #002966;
+  background-color: #99c2ff;
 }
 
 .btn-secondary {
