@@ -47,7 +47,8 @@ header p {
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #0066ff;
+  color: #0000;
+  background-color: #0066ff;
 }
 
 section .row img {
