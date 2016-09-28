@@ -1,5 +1,5 @@
 body {
-  padding-top: 50px; }
+  padding: 50px; }
 
 .navbar {
   font-family: "Montserrat", sans-serif; }
@@ -22,11 +22,39 @@ body {
   .resilienceMarq h1 {
     font-size: 90px; }
 
+.carMarq {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  height: 50vh;
+  width: auto;
+  display: block;
+  padding: 50px;
+  border-width: 5px;
+  border-style: solid;
+  margin: 25vh;
+  background-image: url(../img/ResilienceCar2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: orange;
+  border-color: black; }
+  .carMarq h1 {
+    font-size: 90px; }
+
 .biography {
   font-family: "Montserrat", sans-serif; }
   .biography .bioLeftText {
-    text-align: left; }
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50vw;
+    float: left; }
   .biography .bioRightText {
-    text-align: right; }
+    text-align: right;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50vw;
+    float: right; }
 
 /*# sourceMappingURL=style.css.map */

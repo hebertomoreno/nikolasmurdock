@@ -8,14 +8,14 @@ $osw: "Oswald", sans-serif;
 	background-size: cover;
 	background-attachment: fixed;
 }
-body {
-  padding-top: 50px;
+@mixin resilienceBGImage2 {
+	background-image: url(../img/ResilienceCar2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
-
-.navbar {
-	font-family: $mon;
-}
-.resilienceMarq {
+@mixin marq {
 	text-align: center;
 	font-family: $mon;
 	height: 50vh;
@@ -25,7 +25,26 @@ body {
 	border-width:5px;
 	border-style:solid;
 	margin: 25vh;
+}
+body {
+  padding: 50px;
+}
+
+.navbar {
+	font-family: $mon;
+}
+.resilienceMarq {
+	@include marq;
 	@include resilienceBGImage1;
+	h1 {
+		font-size: 90px;
+	}
+}
+.carMarq {
+	@include marq;
+	@include resilienceBGImage2;
+	color: orange;
+	border-color: black;
 	h1 {
 		font-size: 90px;
 	}
@@ -33,10 +52,19 @@ body {
 
 .biography {
 	font-family: $mon;
+
 	.bioLeftText {
 		text-align:left;
+		margin-top:50px;
+		margin-bottom:50px;
+		width: 50vw;
+		float:left;
 	}
 	.bioRightText {
 		text-align:right;
+		margin-top:100px;
+		margin-bottom:100px;
+		width:50vw;
+		float:right;
 	}
 }
