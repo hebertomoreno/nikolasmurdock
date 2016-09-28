@@ -1,4 +1,13 @@
 $mon: "Montserrat", sans-serif;
+$osw: "Oswald", sans-serif;
+
+@mixin resilienceBGImage1 {
+	background-image: url(../img/ResilienceCar1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
 body {
   padding-top: 50px;
 }
@@ -16,11 +25,18 @@ body {
 	border-width:5px;
 	border-style:solid;
 	margin: 25vh;
-	background-image: url(../img/ResilienceCar1.jpg);
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	@include resilienceBGImage1;
 	h1 {
 		font-size: 90px;
+	}
+}
+
+.biography {
+	font-family: $mon;
+	.bioLeftText {
+		text-align:left;
+	}
+	.bioRightText {
+		text-align:right;
 	}
 }

@@ -17,8 +17,16 @@ body {
   background-image: url(../img/ResilienceCar1.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
   .resilienceMarq h1 {
     font-size: 90px; }
+
+.biography {
+  font-family: "Montserrat", sans-serif; }
+  .biography .bioLeftText {
+    text-align: left; }
+  .biography .bioRightText {
+    text-align: right; }
 
 /*# sourceMappingURL=style.css.map */
