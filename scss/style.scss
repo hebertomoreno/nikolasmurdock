@@ -1,5 +1,22 @@
 $mon: "Montserrat", sans-serif;
+body {
+  padding-top: 50px;
+}
+
+.navbar {
+	font-family: $mon;
+}
 .resilienceMarq {
 	text-align: center;
 	font-family: $mon;
+	height: 50vh;
+	width: auto;
+	display: block;
+	padding: 50px;
+	border-width:5px;
+	border-style:solid;
+	margin: 25vh;
+	h1 {
+		font-size: 90px;
+	}
 }
