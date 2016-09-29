@@ -59,12 +59,16 @@ body {
 .resilienceMarq {
 	@include marq;
 	@include resilienceBGImage1;
+	overflow: auto;
 }
 .carMarq {
 	@include marq;
 	@include resilienceBGImage2;
-	color: orange;
+	color: #0000e0;
 	border-color: black;
+	.carMarqText {
+		float: right;
+	}
 }
 
 .biography {
