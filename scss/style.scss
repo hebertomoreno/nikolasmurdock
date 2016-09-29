@@ -1,7 +1,11 @@
 $mon: "Montserrat", sans-serif;
 $osw: "Oswald", sans-serif;
 
+* {
+	box-sizing: border-box;
+}
 @mixin resilienceBGImage1 {
+
 	background-image: url(../img/ResilienceCar1.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -37,7 +41,7 @@ body {
 	@include marq;
 	@include resilienceBGImage1;
 	h1 {
-		font-size: 15vh;
+		font-size: 10vw;
 	}
 }
 .carMarq {
