@@ -64,10 +64,19 @@ body {
 .carMarq {
 	@include marq;
 	@include resilienceBGImage2;
+	overflow: auto;
 	color: #0000e0;
 	border-color: black;
 	.carMarqText {
-		float: right;
+		height:100%;
+		overflow:hidden;
+		.carMarqH1 {
+			mix-blend-mode:multiply;
+		}
+		.carMarqP {
+			/*float: right;*/
+			mix-blend-mode: multiply;
+		}
 	}
 }
 

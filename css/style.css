@@ -51,10 +51,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  overflow: auto;
   color: #0000e0;
   border-color: black; }
   .carMarq .carMarqText {
-    float: right; }
+    height: 100%;
+    overflow: hidden; }
+    .carMarq .carMarqText .carMarqH1 {
+      mix-blend-mode: multiply; }
+    .carMarq .carMarqText .carMarqP {
+      /*float: right;*/
+      mix-blend-mode: multiply; }
 
 .biography {
   font-family: "Montserrat", sans-serif; }
