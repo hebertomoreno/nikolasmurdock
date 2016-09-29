@@ -1,7 +1,11 @@
 $mon: "Montserrat", sans-serif;
 $osw: "Oswald", sans-serif;
 
+* {
+	box-sizing: border-box;
+}
 @mixin resilienceBGImage1 {
+
 	background-image: url(../img/ResilienceCar1.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
