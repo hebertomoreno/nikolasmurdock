@@ -101,3 +101,25 @@ body {
 		height:100px;
 	}
 }
+
+.salesButtons {
+	margin:0 !important;
+	padding:0 !important;
+	
+	.bigButt {
+		margin:2px;
+		font-family:$mon;
+		font-size: $biggestFont*0.8;
+		overflow:hidden;
+		height:30%;
+		width: 100%;
+		text-align: center;	
+	}
+	.btn-secondary:hover {
+		background-color: blue;
+	}
+	.btn-primary:hover {
+		background-color: white;
+		color: black;
+	}
+}

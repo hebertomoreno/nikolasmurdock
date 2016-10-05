@@ -80,4 +80,21 @@ body {
   .biography .resSong {
     height: 100px; }
 
+.salesButtons {
+  margin: 0 !important;
+  padding: 0 !important; }
+  .salesButtons .bigButt {
+    margin: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 8vmin;
+    overflow: hidden;
+    height: 30%;
+    width: 100%;
+    text-align: center; }
+  .salesButtons .btn-secondary:hover {
+    background-color: blue; }
+  .salesButtons .btn-primary:hover {
+    background-color: white;
+    color: black; }
+
 /*# sourceMappingURL=style.css.map */
