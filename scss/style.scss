@@ -51,12 +51,6 @@ body {
 	h6 {
 		font-size:$biggestFont/6;
 	}
-	.btn-sample:active {
-		box-shadow: none;
-	}
-	.btn:focus{
-    	outline: none;
-	}
 }
 
 .navbar {
@@ -107,10 +101,7 @@ body {
 		height:100px;
 	}
 }
-.salesButtons {
-	margin:0 !important;
-	padding:0 !important;
-	
+.salesButtons {	
 	.bigButt {
 		font-family:$mon;
 		font-size: $biggestFont*0.8;
@@ -120,6 +111,8 @@ body {
 	}
 	.bigButt:hover {
 		background-color: red;
+	}
+	.bigButt:active {
 
 	}
 }

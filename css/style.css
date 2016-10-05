@@ -15,10 +15,6 @@ body {
     font-size: 2vmin; }
   body h6 {
     font-size: 1.66667vmin; }
-  body .btn-sample:active {
-    box-shadow: none; }
-  body .btn:focus {
-    outline: none; }
 
 .navbar {
   font-family: "Montserrat", sans-serif; }
@@ -84,16 +80,13 @@ body {
   .biography .resSong {
     height: 100px; }
 
-.salesButtons {
-  margin: 0 !important;
-  padding: 0 !important; }
-  .salesButtons .bigButt {
-    font-family: "Montserrat", sans-serif;
-    font-size: 8vmin;
-    overflow: hidden;
-    height: 30%;
-    width: 100%; }
-  .salesButtons .bigButt:hover {
-    background-color: red; }
+.salesButtons .bigButt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 8vmin;
+  overflow: hidden;
+  height: 30%;
+  width: 100%; }
+.salesButtons .bigButt:hover {
+  background-color: red; }
 
 /*# sourceMappingURL=style.css.map */
