@@ -77,7 +77,7 @@ body {
     margin-bottom: 100px;
     width: 50vw;
     float: right; }
-  .biography .resSong {
+  .biography #resSong {
     height: 100px; }
 
 .salesButtons {
