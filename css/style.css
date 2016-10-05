@@ -86,13 +86,15 @@ body {
   .salesButtons .bigButt {
     margin: 2px;
     font-family: "Montserrat", sans-serif;
-    font-size: 8vmin;
+    font-size: 5vmin;
     overflow: hidden;
-    height: 30%;
+    height: 15%;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    padding-top: 3vmin; }
   .salesButtons .btn-secondary:hover {
-    background-color: blue; }
+    background-color: black;
+    color: white; }
   .salesButtons .btn-primary:hover {
     background-color: white;
     color: black; }
