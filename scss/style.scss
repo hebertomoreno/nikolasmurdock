@@ -32,25 +32,31 @@ $biggestFont: 10vmin;
 	margin: 25vh;
 }
 body {
-  padding: 50px;
-  h1 {
-  	font-size:$biggestFont;
-  }
-  h2 {
-  	font-size:$biggestFont/2;
-  }
-  h3 {
-  	font-size:$biggestFont/3;
-  }
-  h4 {
-  	font-size:$biggestFont/4;
-  }
-  h5 {
-  	font-size:$biggestFont/5;
-  }
-  h6 {
-  	font-size:$biggestFont/6;
-  }
+	padding: 50px;
+	h1 {
+		font-size:$biggestFont;
+	}
+	h2 {
+		font-size:$biggestFont/2;
+	}
+	h3 {
+		font-size:$biggestFont/3;
+	}
+	h4 {
+		font-size:$biggestFont/4;
+	}
+	h5 {
+		font-size:$biggestFont/5;
+	}
+	h6 {
+		font-size:$biggestFont/6;
+	}
+	.btn-sample:active {
+		box-shadow: none;
+	}
+	.btn:focus{
+    	outline: none;
+	}
 }
 
 .navbar {
@@ -99,5 +105,21 @@ body {
 	}
 	.resSong {
 		height:100px;
+	}
+}
+.salesButtons {
+	margin:0 !important;
+	padding:0 !important;
+	
+	.bigButt {
+		font-family:$mon;
+		font-size: $biggestFont*0.8;
+		overflow:hidden;
+		height:30%;
+		width: 100%;
+	}
+	.bigButt:hover {
+		background-color: red;
+
 	}
 }
