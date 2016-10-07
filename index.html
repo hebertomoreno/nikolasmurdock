@@ -34,12 +34,6 @@
 		      </div>
 		    </nav>
 	    </div>
-	    <script>
-			$(".nav a").on("click", function(){
-				$(".nav").find(".active").removeClass("active");
-				$(this).parent().addClass("active");
-			});
-	    </script>
 		<div class="resilienceMarq container-fluid" id="resiMarq">
 			<h1>RESILIENCE</h1>
 			<h2>The second album by Nikolas Murdock</h2>
@@ -112,6 +106,12 @@
 				<a class="btn btn-secondary bigButt" href="https://play.google.com/store/music/artist/Nikolas_Murdock?id=Ay5cpid623ticihpjxyl3ss3vca&hl=en" target="_blank">Buy it on GooglePlay</a>
 				<a class="btn btn-primary bigButt" href="spotify:artist:4TAI8CNL9UNLAZ4dYagwws" target="_blank">Listen to me on Spotify</a>
 			</div>
+		</div>
+		<div class="form-group" id="contact">
+			<h1>Send nikolas murdock a message</h1>
+			<label for="exampleTextarea">Message</label>
+			<textarea class="form-control" id="messageForNik" rows="4"></textarea>
+			<button type="submit" class="btn btn-primary" id="submitButton" formaction="message.js">Send</button>
 		</div>
 	</body>
 </html>
