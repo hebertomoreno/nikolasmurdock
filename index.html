@@ -11,34 +11,32 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		
+
 		<title> NIK MDK </title>
 	</head>
-	<body>
-		<div id="spy-scroll-id">
-			<nav class="navbar navbar-inverse navbar-fixed-top">
-		      <div class="container">
-		        <div class="navbar-header">
-		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-		            <span class="sr-only">Toggle navigation</span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-		          </button>
-		          <a class="navbar-brand" href="#">Nikolas Murdock</a>
-		        </div>
-		        <div id="navbar" class="collapse navbar-collapse">
-		          <ul class="nav navbar-nav">
-		            <li><a href="#resiMarq">Home</a></li>
-		            <li><a href="#bio">Bio</a></li>
-		            <li><a href="#Lyrics">Lyrics</a></li>
-		            <li><a href="#contact">Contact</a></li>
-		          </ul>
-		        </div><!--/.nav-collapse -->
-		      </div>
-		    </nav>
-	    </div>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#">Nikolas Murdock</a>
+	        </div>
+	        <div id="navbar" class="collapse navbar-collapse">
+	          <ul class="nav navbar-nav">
+	            <li class="active"><a href="#resiMarq">Home</a></li>
+	            <li><a href="#bio">Bio</a></li>
+	            <li><a href="#Lyrics">Lyrics</a></li>
+	            <li><a href="#contact">Contact</a></li>
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div>
+	    </nav>
 		<div class="resilienceMarq container-fluid" id="resiMarq">
 			<h1>RESILIENCE</h1>
 			<h2>The second album by Nikolas Murdock</h2>
@@ -448,10 +446,5 @@
 			<textarea class="form-control" id="messageForNik" rows="4"></textarea>
 			<button type="submit" class="btn btn-primary" id="submitButton" formaction="message.js">Send</button>
 		</div>
-		<script>
-		$(document).ready(function(){
-			$('body').scrollspy({target: ".navbar", offset: 50});
-		});
-		</script>
 	</body>
 </html>
