@@ -34,6 +34,7 @@ $biggestFont: 10vmin;
 body {
 	font-family:$mon;
 	padding: 50px;
+	position:relative;
 	h1 {
 		font-size:$biggestFont;
 	}

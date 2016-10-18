@@ -11,7 +11,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<title> NIK MDK </title>
 	</head>
-	<body data-spy="scroll" data-target=".navbar">
+	<body>
 		<div id="spy-scroll-id">
 			<nav class="navbar navbar-inverse navbar-fixed-top">
 		      <div class="container">
@@ -445,5 +445,10 @@
 			<textarea class="form-control" id="messageForNik" rows="4"></textarea>
 			<button type="submit" class="btn btn-primary" id="submitButton" formaction="message.js">Send</button>
 		</div>
+		<script>
+		$(document).ready(function(){
+			$('body').scrollspy({target: ".navbar", offset: 50});
+		});
+		</script>
 	</body>
 </html>
