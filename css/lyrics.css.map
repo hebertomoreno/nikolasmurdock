@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,IAAK;EACJ,WAAW,EAFN,wBAAwB;;AAI9B,SAAU;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAO;EACzB,SAAS,EAAC,IAAI;EACd,QAAQ,EAAE,QAAQ;;AAEnB,eAAgB;EACf,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAE,OAAO",
+"sources": ["../scss/lyrics.scss"],
+"names": [],
+"file": "lyrics.css"
+}

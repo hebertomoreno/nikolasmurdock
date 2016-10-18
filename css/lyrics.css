@@ -1,0 +1,15 @@
+body {
+  font-family: "Montserrat", sans-serif; }
+
+.albumCol {
+  width: auto;
+  height: 33vh;
+  background-color: #0052FF;
+  font-size: 20vh;
+  position: relative; }
+
+.albumCol:hover {
+  background-color: #5252FF;
+  cursor: pointer; }
+
+/*# sourceMappingURL=lyrics.css.map */

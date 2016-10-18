@@ -1,0 +1,15 @@
+$mon: "Montserrat", sans-serif;
+body {
+	font-family: $mon;
+}
+.albumCol {
+	width: auto;
+	height: 33vh;
+	background-color: #0052FF;
+	font-size:20vh;
+	position: relative;
+}
+.albumCol:hover {
+	background-color: #5252FF;
+	cursor: pointer;
+}

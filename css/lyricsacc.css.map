@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,IAAK;EACJ,WAAW,EAFN,wBAAwB",
+"sources": ["../scss/lyricsacc.scss"],
+"names": [],
+"file": "lyricsacc.css"
+}
