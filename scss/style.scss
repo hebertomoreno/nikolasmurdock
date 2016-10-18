@@ -32,6 +32,7 @@ $biggestFont: 10vmin;
 	margin: 25vh;
 }
 body {
+	font-family:$mon;
 	padding: 50px;
 	h1 {
 		font-size:$biggestFont;
@@ -174,4 +175,37 @@ body {
 
 #submitButton {
 	margin-top:20px;
+}
+
+.lyricsSection {
+	font-family:$mon;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	.albumCol {
+		background-color: #337AB7;
+		margin:2px;
+		overflow:hidden;
+		height:15%;
+		width: 100%;
+		text-align: center;	
+		padding-top:1vmin;
+		padding-bottom:3vmin;
+	}
+	.albumCol:hover {
+		background-color:black;
+		.albumTitle:hover {
+			color:white;
+		}
+	}
+	.albumTitle {
+		font-size: $biggestFont;
+	}
+
+	.songTitle {
+		font-size: $biggestFont/3;
+	}
+
+	.albumTitle:hover {
+
+	}
 }

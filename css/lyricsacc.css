@@ -1,4 +1,25 @@
 body {
   font-family: "Montserrat", sans-serif; }
 
+.albumCol {
+  background-color: #337AB7;
+  margin: 2px;
+  overflow: hidden;
+  height: 15%;
+  width: 100%;
+  text-align: center;
+  padding-top: 3vmin;
+  padding-bottom: 3vmin; }
+
+.albumCol:hover {
+  background-color: black; }
+  .albumCol:hover .albumTitle:hover {
+    color: white; }
+
+.albumTitle {
+  font-size: 10vmin; }
+
+.songTitle {
+  font-size: 3.33333vmin; }
+
 /*# sourceMappingURL=lyricsacc.css.map */

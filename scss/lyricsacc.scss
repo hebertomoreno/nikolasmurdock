@@ -1,4 +1,33 @@
 $mon: "Montserrat", sans-serif;
+$biggestFont: 10vmin;
 body {
 	font-family: $mon;
+}
+
+.albumCol {
+	background-color: #337AB7;
+	margin:2px;
+	overflow:hidden;
+	height:15%;
+	width: 100%;
+	text-align: center;	
+	padding-top:3vmin;
+	padding-bottom:3vmin;
+}
+.albumCol:hover {
+	background-color:black;
+	.albumTitle:hover {
+		color:white;
+	}
+}
+.albumTitle {
+	font-size: $biggestFont;
+}
+
+.songTitle {
+	font-size: $biggestFont/3;
+}
+
+.albumTitle:hover {
+
 }
