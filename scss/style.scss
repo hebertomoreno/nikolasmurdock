@@ -57,7 +57,40 @@ body {
 
 .navbar {
 	font-family: $mon;
+	#navHome:hover {
+		span {
+			display:none;
+		}
+		&:before {
+			content: "Goin' home";
+		}
+	}
+	#navBio:hover {
+		span {
+			display:none;
+		}
+		&:before {
+			content: "Why would you want to";
+		}
+	}
+	#navLyrics:hover {
+		span {
+			display:none;
+		}
+		&:before {
+			content: "Sing along!";
+		}
+	}
+	#navContact:hover {
+		span {
+			display:none;
+		}
+		&:before {
+			content: "No, please no ";
+		}
+	}
 }
+
 .resilienceMarq {
 	@include marq;
 	@include resilienceBGImage1;
