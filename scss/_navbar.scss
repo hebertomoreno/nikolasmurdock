@@ -16,6 +16,14 @@
 			content: "It's just words";
 		}
 	}
+	#navMusic:hover {
+		span {
+			display:none;
+		}
+		&:before {
+			content: "Please!!!!";
+		}
+	}
 	#navLyrics:hover {
 		span {
 			display:none;
