@@ -1,36 +1,11 @@
-$mon: "Montserrat", sans-serif;
-$osw: "Oswald", sans-serif;
-$biggestFont: 10vmin;
+@import "mixins";
+@import "variables";
+
 
 * {
 	box-sizing: border-box;
 }
-@mixin resilienceBGImage1 {
 
-	background-image: url(../img/ResilienceCar1.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-@mixin resilienceBGImage2 {
-	background-image: url(../img/ResilienceCar2.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}
-@mixin marq {
-	text-align: center;
-	font-family: $mon;
-	height: 50vh;
-	width: auto;
-	display: block;
-	padding: 50px;
-	border-width:5px;
-	border-style:solid;
-	margin: 25vh;
-}
 body {
 	font-family:$mon;
 	padding: 50px;
@@ -55,87 +30,11 @@ body {
 	}
 }
 
-.navbar {
-	font-family: $mon;
-	#navHome:hover {
-		span {
-			display:none;
-		}
-		&:before {
-			content: "Goin' home";
-		}
-	}
-	#navBio:hover {
-		span {
-			display:none;
-		}
-		&:before {
-			content: "It's just words";
-		}
-	}
-	#navLyrics:hover {
-		span {
-			display:none;
-		}
-		&:before {
-			content: "Sing along!";
-		}
-	}
-	#navContact:hover {
-		span {
-			display:none;
-		}
-		&:before {
-			content: "No, please no ";
-		}
-	}
-}
+@import "navbar";
 
-.resilienceMarq {
-	@include marq;
-	@include resilienceBGImage1;
-	overflow: auto;
-}
-.carMarq {
-	@include marq;
-	@include resilienceBGImage2;
-	overflow: auto;
-	color: #0000e0;
-	border-color: black;
-	.carMarqText {
-		height:100%;
-		overflow:hidden;
-		.carMarqH1 {
-			mix-blend-mode:multiply;
-		}
-		.carMarqP {
-			/*float: right;*/
-			mix-blend-mode: multiply;
-		}
-	}
-}
+@import "marqs";
 
-.biography {
-	font-family: $mon;
-
-	.bioLeftText {
-		text-align:left;
-		margin-top:50px;
-		margin-bottom:50px;
-		width: 50vw;
-		float:left;
-	}
-	.bioRightText {
-		text-align:right;
-		margin-top:100px;
-		margin-bottom:100px;
-		width:50vw;
-		float:right;
-	}
-	#resSong {
-		height:100px;
-	}
-}
+@import "bio";
 
 .salesButtons {
 	margin:0 !important;
@@ -161,86 +60,8 @@ body {
 	}
 }
 
-.glitch{
-	font-size:$biggestFont;
-	position:relative;
-	overflow: visible;
-}
-@keyframes noise-anim{
-  $steps:50;
-  @for $i from 0 through $steps{
-    #{percentage($i*(1/$steps))}{
-      clip:rect(random(100)+px,9999px,random(100)+px,0);
-    }
-  }
-}
-.glitch:after{
-	content:attr(data-text);
-	position:absolute;
-	left:2px;
-	text-shadow:-1px 0 red;
-	top:0;
-	color:black;
-	overflow:visible;
-	clip:rect(0,$biggestFont*2,0,0); 
-	animation:noise-anim 2s infinite linear alternate-reverse;
-}
-
-@keyframes noise-anim-2{
-  $steps:40;
-  @for $i from 0 through $steps{
-    #{percentage($i*(1/$steps))}{
-      clip:rect(random(100)+px,9999px,random(100)+px,0);
-    }
-  }
-}
-.glitch:before{
-  content:attr(data-text);
-  position:absolute;
-  left:-2px;
-  text-shadow:1px 0 blue; 
-  top:0;
-  color:black;
-  background:white;
-  overflow:visible;
-  clip:rect(0,900px,0,0); 
-  animation:noise-anim-2 3s infinite linear alternate-reverse;
-}
-
 #submitButton {
 	margin-top:20px;
 }
 
-.lyricsSection {
-	font-family:$mon;
-	padding-top: 50px;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	.albumCol {
-		background-color: #337AB7;
-		margin:2px;
-		overflow:hidden;
-		height:15%;
-		width: 100%;
-		text-align: center;	
-		padding-top:1vmin;
-		padding-bottom:3vmin;
-	}
-	.albumCol:hover {
-		background-color:black;
-		.albumTitle:hover {
-			color:white;
-		}
-	}
-	.albumTitle {
-		font-size: $biggestFont;
-	}
-
-	.songTitle {
-		font-size: $biggestFont/3;
-	}
-
-	.albumTitle:hover {
-
-	}
-}
+@import "lyricsacc";

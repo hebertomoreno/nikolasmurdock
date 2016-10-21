@@ -1,0 +1,26 @@
+@mixin resilienceBGImage1 {
+
+	background-image: url(../img/ResilienceCar1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+@mixin resilienceBGImage2 {
+	background-image: url(../img/ResilienceCar2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+@mixin marq {
+	text-align: center;
+	font-family: $mon;
+	height: 50vh;
+	width: auto;
+	display: block;
+	padding: 50px;
+	border-width:5px;
+	border-style:solid;
+	margin: 25vh;
+}
