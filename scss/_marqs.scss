@@ -2,7 +2,11 @@
 	@include marq;
 	@include resilienceBGImage1;
 	overflow: auto;
+	&:hover {
+		cursor: pointer;
+	}
 }
+
 .carMarq {
 	@include marq;
 	@include resilienceBGImage2;
