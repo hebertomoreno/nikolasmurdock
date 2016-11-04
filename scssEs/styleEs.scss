@@ -1,0 +1,67 @@
+@import "mixinsEs";
+@import "variablesEs";
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family:$mon;
+	padding: 50px;
+	position:relative;
+	h1 {
+		font-size:$biggestFont;
+	}
+	h2 {
+		font-size:$biggestFont/2;
+	}
+	h3 {
+		font-size:$biggestFont/3;
+	}
+	h4 {
+		font-size:$biggestFont/4;
+	}
+	h5 {
+		font-size:$biggestFont/5;
+	}
+	h6 {
+		font-size:$biggestFont/6;
+	}
+}
+
+@import "navbarEs";
+
+@import "marqsEs";
+
+@import "bioEs";
+
+.salesButtons {
+	margin:0 !important;
+	padding:0 !important;
+	
+	.bigButt {
+		margin:2px;
+		font-family:$mon;
+		font-size: $biggestFont/2;
+		overflow:hidden;
+		height:15%;
+		width: 100%;
+		text-align: center;	
+		padding-top:3vmin;
+	}
+	.btn-secondary:hover {
+		background-color: black;
+		color: white;
+	}
+	.btn-primary:hover {
+		background-color: white;
+		color: black;
+	}
+}
+
+#submitButton {
+	margin-top:20px;
+}
+
+@import "lyricsaccEs";

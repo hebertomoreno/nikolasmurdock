@@ -1,0 +1,51 @@
+.navbar {
+	font-family: $mon;
+	#navHome:hover {
+		span {
+			display:none;
+		}
+		&:before {
+			content: "Goin' home";
+		}
+	}
+	#navBio:hover {
+		span {
+			display:none;
+		}
+		&:before {
+			content: "It's just words";
+		}
+	}
+	#navMusic:hover {
+		span {
+			display:none;
+		}
+		&:before {
+			content: "Please!!!!";
+		}
+	}
+	#navLyrics:hover {
+		span {
+			display:none;
+		}
+		&:before {
+			content: "Sing along!";
+		}
+	}
+	#navContact:hover {
+		span {
+			display:none;
+		}
+		&:before {
+			content: "No, please no ";
+		}
+	}
+	#navPretend:hover {
+		span {
+			display:none;
+		}
+		&:before {
+			content: "My personal blog?!!";
+		}
+	}
+}

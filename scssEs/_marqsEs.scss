@@ -1,0 +1,27 @@
+.resilienceMarq {
+	@include marq;
+	@include resilienceBGImage1;
+	overflow: auto;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.carMarq {
+	@include marq;
+	@include resilienceBGImage2;
+	overflow: auto;
+	color: #0000e0;
+	border-color: black;
+	.carMarqText {
+		height:100%;
+		overflow:hidden;
+		.carMarqH1 {
+			mix-blend-mode:multiply;
+		}
+		.carMarqP {
+			/*float: right;*/
+			mix-blend-mode: multiply;
+		}
+	}
+}
